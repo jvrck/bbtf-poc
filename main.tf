@@ -14,9 +14,9 @@ provider "bitbucket" {
 
 # Manage your repository
 resource "bitbucket_repository" "infrastructure" {
-  owner = var.bb_workspace
-  name  = "terraform-code"
-  project_key = "TERRAFORMPROJ"
+  owner             = var.bb_workspace
+  name              = "terraform-code"
+  project_key       = "TERRAFORMPROJ"
   pipelines_enabled = "true"
 }
 
