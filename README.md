@@ -8,9 +8,9 @@ A simple example that creates a Bitbucket project, repo, deployment and deployme
 
 This exmaple uses [App Passwords](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/).
 
-You can create a TFVARS file or put your credentials into the `env_setup.sh.example` file and rename the file to `env_setup.sh`
+You can create a TFVARS file with the variables or put your credentials into the `env_setup.sh.example` file and rename the file to `env_setup.sh`. This will add the variables to your environment.
 
-The you need to source the file with the following. 
+Then you need to source the file with the following.
 
 ```shell
 source ./env_setup.sh
