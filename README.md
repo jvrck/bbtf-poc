@@ -4,6 +4,8 @@ Bitbucket Terraform Provider POC
 
 A simple example that creates a Bitbucket project, repo, deployment and deployment variables.
 
+Built using the [Bitbucket Terraform provider](https://github.com/DrFaust92/terraform-provider-bitbucket) and Terraform version `1.2.2`
+
 ## Credentials
 
 This exmaple uses [App Passwords](https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/).
