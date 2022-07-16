@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export TF_VAR_bb_username=''
+export TF_VAR_bb_password=''
+export TF_VAR_bb_workspace=''
